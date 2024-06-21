@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ben Daws' Homepage</title>
+        <link rel="icon" href="/img/favicon.png">
+        <link rel="stylesheet" href="/css/style.css">
+        <meta name="description" content="Ben Daws' personal homepage">
+        <meta name="keywords" content="linux for noobs, linux, ben daws, bendaws, btdaws.28, bdaws10, bdaws26, DrumkitBazooka">
+    </head>
+
+    <div class="content">
+        <div class="center">
+            <iframe src="topbar.html" style="border: none; width:100%; height: 18px; padding: 0px; margin: 0px;">
+                Error rendering top bar.
+            </iframe>
+        </div>
+
+        <div class="seperator"></div>
+
+        <div class="center">
+            <h1>Castles & Pathways, v13.0.0-beta</h1>
+            <p>
+                Castles & Pathways is a terminal-based strategy game based around (can you guess?)
+                castles & trails. You can grab the current release at the Git repository, or clone it and 
+                build a testing release yourself.
+
+                <li><b>Git Repository</b>, version 13.0.0:
+                    <a href="https://github.com/bendaws/castles">View</a> / 
+                    <a >Download (no releases)</a>
+                </li>
+            </p>
+        </div>
+
+        <div class="seperator"></div>
+
+        <div>
+            <h2>Table of Contents</h2>
+            <li>Build & Install</li>
+            <ul>
+                <li>Download stable release</li>
+                <li>Clone git repository</li>
+                <li>Install via. Makefile</li>
+                <li>Troubleshooting</li>
+            </ul>
+            <li>Command Line Options</li>
+            <li>How To Play</li>
+            <ul>
+                <li>Defense (Defenders)</li>
+                <li>Offense (Attackers)</li>
+                <li>Points System</li>
+            </ul>
+            <li>Credits</li>
+        </div>
+
+        <div class="seperator"></div>
+
+        <h2>Build & Install</h2>
+        <p>
+            Currently, the only systems that Castles & Pathways is designed for is *nix systems
+            (eg. Linux & macOS
+                (excluding Mac OS 9 and below)).
+        </p>
+
+        <h2>Download a stable release</h2>
+
+        <p>
+            Latest builds of Castles & Pathways are avaliable from the GitHub source page. You can pick one up at
+            this link:<br><br>
+
+            https://github.com/bendaws/castles
+
+            <br><br>
+            To extract the archive (via tar), use this command:<br><br>
+
+                tar -xf ../../castles-13.0.0-beta.tar.gz
+
+            <br><br>
+            Then, you can cd into the build directory.
+            <br>
+            cd castles-13.0.0-beta
+        </p>
+
+        <h2>Clone git repository</h2>
+
+        <p>
+            From the same link, you can clone a testing release.
+<br><br>
+        git clone https://github.com/bendaws/castles
+        cd castles
+        </p>
+
+        <h2>Install via. Makefile</h2>
+
+        <p>
+            GNU Make is a simple and open-source tool to build open-source software. It will automatically detect
+            if you need updates to files that already exist. To install GNU Make, see your operating system's
+            documentation.<br><br>
+
+            There are three targets to build:
+                <li>castles: Builds "castles.c" and moves it into the build directory.</li>
+                <li>install: Moves the working castles build into /usr/local/bin.</li>
+                <li>all: Does all of the above automatically (in correct order).</li>
+
+            <br>
+            Here's how to use targets if you don't know:<br><br>
+
+            make target
+        </p>
+
+        <div class="seperator"></div>
+
+        <h2>Command Line Options</h2>
+
+                    <li>castles --version:  Prints the current version of Castles you are running as well as a header
+                    included as part of the GNU General Public License v3.0.</li><br>
+
+                    <li>castles --git:      Returns the link to the GitHub repository.</li><br>
+
+                    <li>castles --test:     Makes sure all files necessary for Castles to launch exist.
+                    Output of "yes" means that it is ready to play, and output of "no" means
+                    something is missing.</li><br>
+
+                    <li>castles --play:     Starts the game.</li><br>
+
+                    <li>castles:            Shortcut for "castles --play"</li><br>
+
+        <div class="seperator"></div>
+
+        <h2>How To Play</h2>
+        <p>incomplete section. Check back later</p>
+        
+
+        <div class="seperator"></div>
+
+        <div class="center">
+            <p>
+                site copyright (C) Copyright 2016 - 2024 Ben Daws.
+                Licensed under the GNU General Public License 3.0.
+            </p>
+            <a href="/license.txt">license (in raw text)</a> <b>|</b> 
+            <a href="https://github.com/bendaws/www">open-source git repository</a>
+        </div>
+
+        <br>
+
+        <div class="center">
+            <img src="/img/debian.gif">
+            <img src="/img/blink.gif">
+            <img src="/img/cssdif.gif">
+            <img src="/img/dell.gif">
+            <img src="/img/javanow.gif">
+        </div>
+    </div>
+</html>

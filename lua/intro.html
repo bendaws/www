@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Linux</title>
+        <link rel="icon" href="/img/favicon.png">
+        <link rel="stylesheet" href="/css/style.css">
+        <meta name="description" content="Ben Daws' personal homepage">
+        <meta name="keywords" content="linux for noobs, linux, ben daws, bendaws, btdaws.28, bdaws10, bdaws26, DrumkitBazooka">
+    </head>
+
+    <div class="content">
+        <div class="center">
+            <iframe src="/topbar.html" style="border: none; width:100%; height: 18px; padding: 0px; margin: 0px;">
+                Error rendering top bar.
+            </iframe>
+        </div>
+
+        <div class="seperator"></div>
+
+        <div class="center">
+            <h1>The Bolt Programming Language</h1>
+            <p>
+                Lua is an amazing language, but it isn't perfect. Being a compiled language but not
+                being able to run standalone executables is a strange concept to make with.
+                Bolt is designed to be exactly like Lua with language optimizations that make
+                it closer to TypeScript. Here are the main differences:
+
+                <li>
+                    Lua is a compiled language with no standalone executables.
+                    <br>
+                    Bolt is a transpiled language that transpiles to C++, then uses the
+                    <a href="https://www.gnu.org/gcc">gcc</a> compiler to make an executable.
+                </li>
+                <li>
+                    Lua does not deal with types outside of <code>type()</code>.
+                    <br>
+                    Bolt allows for explicit types, but does not force them. If
+                    a type is mismatched, it delivers a warning at compile time.
+                </li>
+                <li>
+                    Lua releases versions of their <b>source</b> every couple years.
+                    <br>
+                    Bolt puts out a new release every month that can optionally be upgraded automatically
+                    with <code>bolt --upgrade</code>.
+                </li>
+                <br>
+                Note that Bolt is not ready for stable use. It's currently reported version is
+                <code>BTC version 0.0.2, build 392 (testing)</code>.
+            </p>
+        </div>
+
+        <div class="seperator"></div>
+
+        <div class="center">
+            <p>
+                site copyright (C) Copyright 2016 - 2024 Ben Daws.
+                Licensed under the GNU General Public License 3.0.
+            </p>
+            <a href="/license.txt">license (in raw text)</a> <b>|</b> 
+            <a href="https://github.com/bendaws/www">open-source git repository</a>
+        </div>
+
+        <br>
+
+        <div class="center">
+            <img src="/img/debian.gif">
+            <img src="/img/blink.gif">
+            <img src="/img/cssdif.gif">
+            <img src="/img/dell.gif">
+            <img src="/img/javanow.gif">
+        </div>
+    </div>
+</html>
